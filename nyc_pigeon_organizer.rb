@@ -3,6 +3,20 @@ new_hash={}
 data.each do |key, value|
   value.each do |key1, value1|
     value1.each do |name| 
+     new_hash[name]={}
+      
+     new_hash[name][key]==[]
+     new_hash[name][key].push(key1.to_s)
+   end 
+ end 
+ end 
+ new_hash 
+ end 
+      
+=begin     
+      
+      
+      
         
   if !new_hash.include?(name)
     new_hash[name]={key => [key1.to_s]}
@@ -20,7 +34,7 @@ end
 end
 
 
-=begin data = {
+ data = {
   :color => {
     :purple => ["Theo", "Peter Jr.", "Lucky"],
     :grey => ["Theo", "Peter Jr.", "Ms. K"],
@@ -41,6 +55,6 @@ end
 
 nyc_pigeon_organizer(data) 
   
-
-
 =end
+
+
