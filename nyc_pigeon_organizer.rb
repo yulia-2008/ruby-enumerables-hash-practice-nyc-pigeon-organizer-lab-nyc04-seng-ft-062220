@@ -37,7 +37,7 @@ end
 end
 
 
- data = {
+data = {
   :color => {
     :purple => ["Theo", "Peter Jr.", "Lucky"],
     :grey => ["Theo", "Peter Jr.", "Ms. K"],
@@ -57,7 +57,7 @@ end
 }
 
 nyc_pigeon_organizer(data) 
-  
+   
 =end
 
 
